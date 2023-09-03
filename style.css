@@ -1,0 +1,146 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo{
+    padding: 0px 80px;
+}
+div>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+div>ul>li{
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--gray-2,#363636);
+    font-weight: 400;
+    font-size: 16px;
+}
+.login-btn{
+    border-color: blue;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    background-color: transparent;
+}
+.nav-2{
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-2{
+    font-size: 45px;
+    width: 50%;
+    margin-top:80px;
+    padding-left: 10px;
+}
+.text-colr{
+    color: rgb(98, 98, 241);
+}
+.box-3{
+    padding-left: 10px;
+    width: 40%;
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-right: 70px;
+    align-items: center;
+    box-shadow: #6607cc;
+    border-color: rgb(211, 53, 80);
+}
+.header{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+
+}
+.content{
+    text-align: center;
+    margin: 0px 30px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: silver;
+}
+.footer{
+    text-align: center;
+    margin: 0px 40px;
+    font-size: 10px;
+    color:#6f6464;
+}
+.text{
+    border: none;
+}
+.apply-btn{
+    margin-top: 40px;
+    margin: 20px 40px;
+    color:white;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+hr.line{
+    border: 3px solid rgba(3, 3, 162, 0.466);
+}
+h2{
+    text-align: center;
+    font-size: 200;
+    color:blue;
+    font-weight: lighter !important;
+    font-family: cursive !important;
+}
+.tables{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tables-1{
+    padding:10px 20px;
+}
+h3{
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+h6{
+    color: #6607cc;
+    padding-top: 67px;
+    text-align: center;
+}
+.list{
+    overflow:scroll;
+}
+h1{
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+.justify-content-around {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+}
