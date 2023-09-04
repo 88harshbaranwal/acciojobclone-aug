@@ -102,6 +102,9 @@ div>ul>li{
 hr.line{
     border: 3px solid rgba(3, 3, 162, 0.466);
 }
+.hero-section-1{
+    background-color: skyblue;
+}
 h2{
     text-align: center;
     font-size: 200;
@@ -113,9 +116,25 @@ h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+}
+table>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-1{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
 }
 .tables-1{
     padding:10px 20px;
+    border-radius: 10px;
+    background-color: white;
 }
 h3{
     text-align: center;
@@ -134,8 +153,18 @@ h6{
 h1{
     text-align: center;
 }
-button{
-    border-radius: 10px;
+.show-btn{
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "?????-??", Helvetica;
+    font-weight: 400;
+    color: #955400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
 }
 .pt-5, .py-5 {
     padding-top: 3rem!important;
